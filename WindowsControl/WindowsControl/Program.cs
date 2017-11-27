@@ -165,6 +165,24 @@ namespace WindowsControl
         {
             WindowsKeyboard.SendKey(WindowsKeyboard.Keys.VolumeDown);
         }
+        
+        /// <summary>
+        /// Press space bar.
+        /// </summary>
+        [MessageCallback]
+        public void SpaceBar()
+        {
+            WindowsKeyboard.SendKey(WindowsKeyboard.Keys.SpaceBar);
+        }
+        
+        /// <summary>
+        /// Play or pause media player
+        /// </summary>
+        [MessageCallback]
+        public void PlayAndPause()
+        {
+            WindowsKeyboard.SendKey(WindowsKeyboard.Keys.SpaceBar);
+        }
 
         /// <summary>
         /// Sets the brightness.
