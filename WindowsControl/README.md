@@ -18,6 +18,8 @@ Control your Windows from Constellation
   - SetBrightness(targetBrightness) : Sets the brightness.
   - BrightnessUp() : Increase Brightness.
   - BrightnessDown() : Decrease Brightness.
+  - SpaceBar() : Press space bar.
+  - PlayAndPause() : Play/Pause media player.
 
 ### Installation
 
