@@ -32,7 +32,9 @@ namespace WindowsControl
         {
             VolumeDown = 174,
             VolumeUp = 175,
-            VolumeMute = 173
+            VolumeMute = 173,
+            PlayAndPause = 179,
+            SpaceBar = 32
         }
 
         public static void SendKey(Keys key)
